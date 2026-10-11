@@ -1,0 +1,21 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.matchBrackets": "always",
+  "highlight-matching-tag.enabled": true,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "highlight-matching-tag.highlightFromContent": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "yellow"
+      }
+    },
+    "closing": {
+      "name": {
+        "underline": "yellow"
+      }
+    }
+  }
+}
