@@ -1,12 +1,13 @@
-import { UserDetails } from "./UserDetails.jsx"
-import { ProductList } from "./ProductList.jsx"
-
+import { Alert } from "./Alert.jsx";
+import { NewButton } from "./NewButton.jsx"
 function App() {
   return (
     <>
-      <ProductList />
+      <Alert type="success" >Your changes have been saved</Alert>
+      <Alert type="error" >Some error has popped up</Alert>
+      <NewButton />
     </>
   )
 }
 
-export default App
+export default App;
