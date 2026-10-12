@@ -1,16 +1,11 @@
 import { UserDetails } from "./UserDetails.jsx"
-
+import { ProductList } from "./ProductList.jsx"
 
 function App() {
   return (
-    <div>
-      <UserDetails name={"Ashmit Singh"}
-        isOnline={true}
-        hideOffline={true}
-        IsPremium={true}
-        isNewUser={true} />
-      <UserDetails name={"Ashutosh Wanga"} isOnline={false} hideOffline={true} />
-    </div>
+    <>
+      <ProductList />
+    </>
   )
 }
 
